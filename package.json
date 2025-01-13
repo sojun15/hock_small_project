@@ -1,10 +1,13 @@
 {
-  "name": "hockstateeffect",
+  "homepage": "https://sojun15/github.io/hock_small_project",
+  "name": "hock_small_project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
